@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>EventStore.Service</id>
+    <title>Service Wrapper for EventStore</title>
+    <version>1.0.0</version>
+    <authors>Ian Bebbington</authors>
+    <owners>Ian Bebbington</owners>
+    <licenseUrl>https://github.com/ibebbs/EventStoreService</licenseUrl>
+    <projectUrl>https://github.com/ibebbs/EventStoreService</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A deployable service wrapper for EventStore</description>
+    <releaseNotes>First Package</releaseNotes>
+  </metadata>
+  <files>
+    <file src="*.*" target=""/>
+    <file src="EventStore\*.*" target="EventStore"/>
+  </files>
+</package>
